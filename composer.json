@@ -1,0 +1,27 @@
+{
+    "name": "lubed/data",
+    "description": "Lube data!",
+    "license": "Apache-2.0",
+    "version": "0.1.0",
+    "authors": [
+        {
+            "name": "cjj",
+            "email": "cjj8110@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.3",
+        "ext-pdo": "*",
+        "ext-zlib": "*",
+        "lubed/utils": "dev-main"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lubed\\Data\\" : "src/"
+        }
+    }
+}
+
